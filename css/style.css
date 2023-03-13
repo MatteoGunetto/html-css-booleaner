@@ -1,9 +1,17 @@
 /* regole generali*/
-body{text-align: left;}
-
+/* * {
+    margin: 0;
+    padding: 0;
+} */
 /* regole header */
-header{ background-image: url(img/pattern.png); background-size: cover; background-color: rgb(78, 170, 255);}
-#logo{width: 10%;padding-top: 30px;}
+header{ 
+    background-image: url("../img/pattern.png");
+    background-color: rgb(78, 170, 255);
+}
+
+#logo{width: 10%;
+    padding-top: 30px;
+padding-bottom: 20px; }
 
 /* regole main */
 
@@ -19,6 +27,7 @@ header{ background-image: url(img/pattern.png); background-size: cover; backgrou
 /* #tabella{text-align: left;} */
 #tabella-intestazione{background-color: rgb(32, 169, 229); color: white; padding: 50px;}
 .tabella-azzurra{background-color: rgb(177, 229, 242);}
+ul{padding: revert}
 
 /* articoli correlati */
 h3{color: rgb(146, 146, 146);}
