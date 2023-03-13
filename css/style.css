@@ -6,9 +6,10 @@ header{ background-image: url(img/pattern.png); background-size: cover; backgrou
 
 /* titolo e autore */
 #booleaner{color: aqua;}
-span{color: rgb(255, 0, 0);}
+.grigio{color: gray;}
 
 /* foto e didascalie */
 .didascalia{color: black;}
 
 /* aritocolo principale */
+.evidenza{background-color: yellow;}
