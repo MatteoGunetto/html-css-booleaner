@@ -1,15 +1,24 @@
+/* regole generali*/
+body{text-align: left;}
+
 /* regole header */
-header{ background-image: url(img/pattern.png); background-size: cover; background-color: aquamarine;}
-#logo{width: 12%;}
+header{ background-image: url(img/pattern.png); background-size: cover; background-color: rgb(78, 170, 255);}
+#logo{width: 10%;padding-top: 30px;}
 
 /* regole main */
 
 /* titolo e autore */
-#booleaner{color: aqua;}
-.grigio{color: gray;}
+#booleaner{color: rgb(32, 169, 229);}
+.grigio{color: rgb(146, 146, 146);}
 
 /* foto e didascalie */
-.didascalia{color: black;}
+.didascalia{color: black; font-size: small;}
 
 /* aritocolo principale */
 .evidenza{background-color: yellow;}
+/* #tabella{text-align: left;} */
+#tabella-intestazione{background-color: rgb(32, 169, 229); color: white; padding: 50px;}
+.tabella-azzurra{background-color: rgb(177, 229, 242);}
+
+/* articoli correlati */
+h3{color: rgb(146, 146, 146);}
