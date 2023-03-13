@@ -21,7 +21,8 @@ section{padding-top: 10px;}
 .grigio{color: rgb(146, 146, 146);}
 
 /* foto e didascalie */
-.didascalia{color: black; font-size: small;}
+.didascalia{color: black; 
+    font-size: small;}
 
 /* aritocolo principale */
 ul{padding: revert}
@@ -32,9 +33,22 @@ padding-bottom: 10px;}
 .evidenza{background-color: yellow;}
 #tabella{text-align: left;}
 tr td{padding-left: 10px;}
-#tabella-intestazione{background-color: rgb(32, 169, 229); color: white; padding: 50px;}
+#tabella-intestazione{background-color: rgb(32, 169, 229); 
+    color: white;
+     padding: 50px;}
 .tabella-azzurra{background-color: rgb(177, 229, 242);}
 
 
 /* articoli correlati */
 h3{color: rgb(146, 146, 146);}
+.immagine {
+    position: relative;   
+    width: 20%;
+ }
+ h4 {
+    position: absolute;
+    color: #eee;
+    padding: 10px;
+    top: 5%;
+    width: 100%;
+}
