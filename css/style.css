@@ -1,0 +1,14 @@
+/* regole header */
+header{ background-image: url(img/pattern.png); background-size: cover; background-color: aquamarine;}
+#logo{width: 12%;}
+
+/* regole main */
+
+/* titolo e autore */
+#booleaner{color: aqua;}
+span{color: rgb(255, 0, 0);}
+
+/* foto e didascalie */
+.didascalia{color: black;}
+
+/* aritocolo principale */
