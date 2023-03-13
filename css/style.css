@@ -1,8 +1,8 @@
 /* regole generali*/
-/* * {
+* {
     margin: 0;
     padding: 0;
-} */
+}
 /* regole header */
 header{ 
     background-image: url("../img/pattern.png");
@@ -14,6 +14,7 @@ header{
 padding-bottom: 20px; }
 
 /* regole main */
+section{padding-top: 10px;}
 
 /* titolo e autore */
 #booleaner{color: rgb(32, 169, 229);}
@@ -23,11 +24,17 @@ padding-bottom: 20px; }
 .didascalia{color: black; font-size: small;}
 
 /* aritocolo principale */
+ul{padding: revert}
+p{padding-top: 10px;
+padding-bottom: 10px;}
+
+/* tabelle e risultati */
 .evidenza{background-color: yellow;}
-/* #tabella{text-align: left;} */
+#tabella{text-align: left;}
+tr td{padding-left: 10px;}
 #tabella-intestazione{background-color: rgb(32, 169, 229); color: white; padding: 50px;}
 .tabella-azzurra{background-color: rgb(177, 229, 242);}
-ul{padding: revert}
+
 
 /* articoli correlati */
 h3{color: rgb(146, 146, 146);}
